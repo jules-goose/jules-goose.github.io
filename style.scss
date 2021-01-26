@@ -16,9 +16,19 @@
 html {
   font-size: 100%;
 }
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: $darkerGray;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: $orange;
 
 body {
-	background: $darkGray;
+	background: $black;
   font: 18px/1.4 $helvetica;
   color: $lightGray;
 }
@@ -275,7 +285,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $black;
 }
 
 footer {
