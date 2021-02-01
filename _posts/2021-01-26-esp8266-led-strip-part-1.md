@@ -1,10 +1,11 @@
 ---
 layout: post
-title: making an led esp 8266 powered led strip, part 1
+title: Making an esp8266 powered led strip, part 1
 ---
 
 recently i've been working on a custom led strip controller, principaly to for a low-cost light bar project but that could be reused in other project. 
 requirement were to have a mean to connect the strip to new wifi networks (which mean a connection portal type of deal), to have the ability to control the strip through a locally hosted web dashboard,to subscribe to mqtt brokers, record actions and bind them to mqtt payloads, and the ability to store all of these information in a local file system so these information remain, finally, as far as the framework choice go, i chose to use the esp8266 arduino core, as i am much more familiar with it and most library i used are originally meant for the arduino family of mcu and since another motivation was to learn how to use platformio
+![ahah led go shiny]({{ site.baseurl }}/images/blogpost-1/led-strip-blogpost-p1.png "illustration")
 
 ## a wifi connection portal
 
